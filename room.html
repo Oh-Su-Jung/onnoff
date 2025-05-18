@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="format-detection" content="telephone=no" />
+	<title>ON N OFF</title>
+	
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/swiper.min.js"></script>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+</head>
+<body>
+
+<div id="wrap">
+
+<header id="header">
+    <div class="inner">
+        <h1 id="logo"><a href="index.html" title="메인으로 이동"><img src="images/logo_w.png" alt="On N Off"></a></h1>
+        
+        <button type="button" id="menuOpen" title="사이트맵 열기"><span></span><span></span><span></span></button>
+        <div>
+            <nav id="gnb">
+                <button type="button" id="menuClose" title="사이트맵 닫기">close</button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="on"><a href="room.html">Room</a></li>
+                    <li><a href="cafe.html">Cafe</a></li>
+                    <li><a href="tourist.html">Tourist Attraction</a></li>
+                </ul>
+                <div class="info">
+                    <p class="t1">Take  enjoyment and memories and take the rest</p>
+                    <p class="h_logo"><img src="images/logo.png" alt="On N Off"></p>
+                </div>
+            </nav>
+
+            <a href="#" target="_blank" class="h_book">Book Now</a>
+        </div>
+    </div>
+</header>
+
+<div class="sRoom_visu">
+    <div class="img_box img1"></div>
+    <div class="txt_box inner">
+        <p class="t1">DISCOVER ROOM TYPE</p>
+        <p class="t2">GOOD REST FOR YOU</p>
+    </div>
+</div>
+
+<div class="sRoom_type1 inner">
+    <div class="top_box">
+        <p>(Rest)</p>
+        <p>(Memory)</p>
+    </div>
+    <p class="title">Room Type</p>
+    <ul>
+        <li>
+            <div class="img_box"><img src="images/sRoom_img1.png"></div>
+            <dl>
+                <dt>OCEAN TRIPLE</dt>
+                <dd>아늑한 객실에서 영종대교의 야경을 조망</dd>
+            </dl>
+            <ol>
+                <li class="user">7인, 최대 7인</li>
+                <li class="bed">더블베드 X 3, 싱글베드 X 1</li>
+            </ol>
+            <a href="room_ocean.html">MORE DETAILS</a>
+        </li>
+        <li>
+            <div class="img_box"><img src="images/sRoom_img2.png"></div>
+            <dl>
+                <dt>FOREST TRIPLE </dt>
+                <dd>아늑한 객실에서 영종도의 자연을 조망</dd>
+            </dl>
+            <ol>
+                <li class="user">7인, 최대 7인</li>
+                <li class="bed">더블베드 X 3, 싱글베드 X 1</li>
+            </ol>
+            <a href="room_forest.html">MORE DETAILS</a>
+        </li>
+        <li>
+            <div class="img_box"><img src="images/sRoom_img3.png"></div>
+            <dl>
+                <dt>PENTHOUSE SUITE</dt>
+                <dd>아늑한 객실에서 숲 조망과 영종바다를 동시에 조망</dd>
+            </dl>
+            <ol>
+                <li class="user">10인, 최대 12인</li>
+                <li class="bed">더블베드 X 5</li>
+            </ol>
+            <a href="room_penthouse.html">MORE DETAILS</a>
+        </li>
+    </ul>
+</div>
+
+<div class="sRoom_type2">
+    <div>
+        <div class="on">
+            <div class="txt_box inner">
+                <div class="txt1">
+                    <p class="t1">Room Type 01</p>
+                    <p class="t2">ON N OFF</p>
+                    <p class="t1">Room Type 01</p>
+                </div>
+                <p class="txt2">OCEAN TRIPLE <span>1/3</span></p>
+            </div>
+            <div class="img_box1 img1"></div>
+            <div class="img_box2 img1"></div>
+        </div>
+        <div>
+            <div class="txt_box inner">
+                <div class="txt1">
+                    <p class="t1">Room Type 02</p>
+                    <p class="t2">ON N OFF</p>
+                    <p class="t1">Room Type 02</p>
+                </div>
+                <p class="txt2">FOREST TRIPLE <span>2/3</span></p>
+            </div>
+            <div class="img_box1 img2"></div>
+            <div class="img_box2 img2"></div>
+        </div>
+        <div>
+            <div class="txt_box inner">
+                <div class="txt1">
+                    <p class="t1">Room Type 03</p>
+                    <p class="t2">ON N OFF</p>
+                    <p class="t1">Room Type 03</p>
+                </div>
+                <p class="txt2">PENTHOUSE SUITE <span>3/3</span></p>
+            </div>
+            <div class="img_box1 img3"></div>
+            <div class="img_box2 img3"></div>
+        </div>
+    </div>
+</div>
+
+<div class="sRoom_faq inner">
+    <div class="top_box">
+        <p>(Rest)</p>
+        <p>(Memory)</p>
+    </div>
+    <div class="box">
+        <div class="tit_box">
+            <span>FAQ</span>
+            <p>WHAT DO YOU <br>WANT TO <br class="mo_br">KNOW?</p>
+        </div>
+        <ul>
+            <li>
+                <p class="q">체크인 / 체크아웃 시간은 어떻게 되나요? <button type="button"><span class="text_hidden">더보기</span></button></p>
+                <div class="a">
+                    <p>체크인 PM 15:00 / 체크아웃 AM 11:00<br>다음 손님을 위해 객실 입퇴실 시간을 꼭 지켜 주시기 바랍니다. (Early 체크인 및 Late 체크아웃 불가 한 점 양해 부탁드립니다)</p>
+                </div>
+            </li>
+            <li>
+                <p class="q">기준인원이 초과 할 경우 어떻게 하나요? <button type="button"><span class="text_hidden">더보기</span></button></p>
+                <div class="a">
+                    <p>최대인원까지 투숙 가능하며 인원 추가 시 추가 인원 당 3만원씩 추가 비용이 발생합니다.<br>만 18세 미만은 보호자 동반시에만 투숙이 가능합니다.   </p>
+                </div>
+            </li>
+            <li>
+                <p class="q">반려동물 동반이 가능한가요? <button type="button"><span class="text_hidden">더보기</span></button></p>
+                <div class="a">
+                    <p>저희 숙소는 고객님들께 최상의 서비스를 제공하기 위해, 반려동물 출입을 제한하고 있습니다. </p>
+                </div>
+            </li>
+            <li>
+                <p class="q">객실 자쿠지 이용 안내 <button type="button"><span class="text_hidden">더보기</span></button></p>
+                <div class="a">
+                    <p>입욕제 사용 시 바닥이 미끄러울 수 있기 때문에 자쿠지를 이용 하실 때 입욕제 사용은 자제 부탁드립니다. </p>
+                </div>
+            </li>
+            <li>
+                <p class="q">기타 문의 사항 <button type="button"><span class="text_hidden">더보기</span></button></p>
+                <div class="a">
+                    <p>이 외의 기타 문의사항들은 온앤오프 유선 번호 000-0000-0000 이나 저희 인스타그램 DM으로 남겨주시면 빠르게 응답 해드리겠습니다.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    const wrapper = document.querySelector('.sRoom_type2');
+    const sections = wrapper.querySelectorAll('.sRoom_type2 > div > div');
+    const sectionCount = sections.length;
+
+    ScrollTrigger.create({
+    trigger: wrapper,
+    start: 'top top',
+    end: 'bottom bottom',
+    scrub: true,
+    onUpdate: self => {
+        let progress = self.progress;
+
+        let index = Math.floor(progress * sectionCount);
+        index = Math.max(0, Math.min(index, sectionCount - 1));
+
+        sections.forEach((sec, i) => {
+        sec.classList.toggle('on', i === index);
+        });
+    }
+    });
+</script>
+
+<footer id="footer">
+    <div class="inner">
+        <div class="top_footer">
+            <p class="t1">A journey to rest, enjoy and make memories through on n off</p>
+            <p class="t2">(&nbsp;&nbsp;Let’s Join&nbsp;&nbsp;)</p>
+        </div>
+        <div class="bottom_footer">
+            <ul>
+                <li>
+                    <dl>
+                        <dt>CONTACT INFO.</dt>
+                        <dd>
+                            Tel. 010-4265-7603<br>
+                            info@onnoff.co
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>SOCIAL</dt>
+                        <dd><a href="https://www.instagram.com/onnoff_stay_?igsh=c214NDhxOHpiaDFp&utm_source=qr" target="_blank">Instagram</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>DOCUMENTATION</dt>
+                        <dd><a href="#">Partnership</a></dd>
+                    </dl>
+                </li>
+            </ul>
+            <div>
+                <p class="t1"><span>TAKE ENJOYMENT</span><span> & MEMORIES</span></p>
+                <p class="t2"><span>TAKE</span><span>THE REST</span></p>
+            </div>
+        </div>
+        <ul class="f_info">
+            <li>온앤오프 ON N OFF</li><br>
+            <li>인천광역시 운북동 1289-23</li>
+            <li>대표: 김수하</li><br>
+            <li>통신판매업 신고번호: 0000-0000-0000</li>
+            <li>대표번호: 010-4265-7603</li>
+        </ul>
+        <p class="copy"><span>copyright</span>ON N OFF All right reserved. since 2025.</p>
+    </div>
+    <div class="tail">
+        <div class="inner">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="room.html">Room</a></li>
+                <li><a href="cafe.html">Cafe</a></li>
+                <li><a href="tourist.html">Tourist Attraction</a></li>
+            </ul>
+            <p><img src="images/logo.png" alt="On N Off"></p>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+</body>
+</html>
