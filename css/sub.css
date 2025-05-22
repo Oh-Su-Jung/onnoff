@@ -371,7 +371,7 @@
 .sTourist_slide .swiper-slide {display:flex; justify-content:center; flex-direction:column;}
 .sTourist_slide .tit {font-size:3em; color:#fff; line-height:1.08em; font-weight:700;}
 .sTourist_slide .t1 {font-size:1.25em; color:#fff; font-weight:700; margin-top:15px;}
-.sTourist_slide .t2 {width:510px; font-size:1.125em; color:#c1c1c1; line-height:1.55em; margin-top:35px; word-break:keep-all;}
+.sTourist_slide .t2 {width:510px; font-size:1.125em; color:#c1c1c1; line-height:1.55em; margin-top:35px;}
 .sTourist_slide.swiper-container-vertical>.swiper-pagination-bullets {right:0;}
 .sTourist_slide.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {margin:12px 0;}
 .sTourist_slide .swiper-pagination-bullet {width:12px; height:12px; background:none; border:1px solid #9c9c9c; border-radius:50%; opacity:1;}
