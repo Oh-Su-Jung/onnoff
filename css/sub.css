@@ -41,7 +41,7 @@
 .sRoom_type2 > div > div .txt_box .txt1 .t2 {font-size:1.375em; color:#fff; font-weight:700;}
 .sRoom_type2 > div > div .txt_box .txt2 {display:flex; justify-content:space-between; align-items:center; font-size:1.25em; color:#fff; width:250px; margin-top:40px;}
 .sRoom_type2 > div > div .img_box1 {width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover; position:absolute; left:0; top:0;}
-.sRoom_type2 > div > div .img_box2 {width:612px; height:612px; background-repeat:no-repeat; background-position:center center; background-size:cover; position:absolute; right:50%; bottom:60px; margin-right:-760px; z-index:1;}
+.sRoom_type2 > div > div .img_box2 {width:31vw; height:31vw; max-width:612px; max-height:612px; background-repeat:no-repeat; background-position:center center; background-size:cover; position:absolute; right:50%; bottom:60px; margin-right:-760px; z-index:1;}
 
 .sRoom_type2 > div > div .img_box1.img1 {background-image:url(../images/sRoom_img1_1.jpg)}
 .sRoom_type2 > div > div .img_box2.img1 {background-image:url(../images/sRoom_img1_2.jpg)}
