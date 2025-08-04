@@ -30,8 +30,9 @@
 }
 
 
-#mVideo {display:flex; justify-content:center; align-items:center; width:100%; height:100vh; background:url(../images/mVideoBG.jpg) no-repeat center center; background-size:cover;}
-#mVideo .video_box {width:100%; height:628px; background:url(../images/mVideo_img1.jpg) no-repeat center center; background-size:cover; position:relative;}
+#mVideo {display:flex; justify-content:center; align-items:center; width:100%; height:100vh; background:url(../images/mVideoBG.jpg) no-repeat center center; background-size:cover; position:relative;}
+#mVideo:before {content:''; display:block; width:100%; height:100%; background:#000; opacity:0.6; position:absolute; left:0; top:0; z-index:0;}
+#mVideo .video_box {width:100%; height:628px; background:url(../images/mVideo_img1.jpg) no-repeat center center; background-size:cover; position:relative; z-index:5;}
 #mVideo .video_box:before {content:''; display:block; width:60px; height:60px; background:url(../images/icon_play.svg) no-repeat center center; background-size:contain; position:absolute; left:50%; top:50%; transform:translate(-50%, -50%)}
 
 @media screen and (max-width:1220px){
