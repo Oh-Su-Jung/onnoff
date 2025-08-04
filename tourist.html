@@ -49,7 +49,15 @@
 
 <div class="sTourist_wrap">
     <div class="inner">
-        <div class="img"></div>
+        <div class="img">
+            <div class="img1 on"></div>
+            <div class="img2"></div>
+            <div class="img3"></div>
+            <div class="img4"></div>
+            <div class="img5"></div>
+            <div class="img6"></div>
+            <div class="img7"></div>
+        </div>
         <div class="sTourist_slide">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -103,6 +111,12 @@
             el: ".swiper-pagination",
             clickable: true,
         },
+        on: {
+            slideChange : function() {
+                $(".sTourist_wrap .img > div").removeClass("on")
+                $(".sTourist_wrap .img > div:eq("+ this.realIndex +")").addClass("on")
+            },
+        },
         breakpoints: {
             1024: {
                 direction: "horizontal",
@@ -136,7 +150,7 @@
                 <li>
                     <dl>
                         <dt>SOCIAL</dt>
-                        <dd><a href="https://www.instagram.com/onnoff_stay_?igsh=c214NDhxOHpiaDFp&utm_source=qr" target="_blank">Instagram</a></dd>
+                        <dd><a href="https://www.instagram.com/onnoff_stay_" target="_blank">Instagram</a></dd>
                     </dl>
                 </li>
                 <li>
@@ -155,7 +169,7 @@
             <li>온앤오프 ON N OFF</li><br>
             <li>인천광역시 중구 영종순환로 577</li>
             <li>대표: 김수하</li><br>
-            <li>통신판매업 신고번호: 0000-0000-0000</li>
+            <li>통신판매업 신고번호: 2025-인천 중구-0381</li>
             <li>대표번호: 010-4265-7603</li>
         </ul>
         <p class="copy"><span>copyright</span>ON N OFF All right reserved. since 2025.</p>

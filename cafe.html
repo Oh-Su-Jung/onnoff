@@ -54,34 +54,38 @@
     </div>
 </div>
 
-<div class="sCafe_case1 inner">
-    <ul class="tab1">
-        <li>Coffee</li>
-        <li>Lifestyle</li>
-        <li class="on">Grocery</li>
-        <li>Barbeque</li>
-    </ul>
-    <p class="t1">온앤오프 카페에서는 다양한 음료와 간단한 브런치 메뉴 및 바베큐와 페어링 할 수 있는 밀키트, 주류, 식재료 등이 준비 되어 있습니다. 이 외에도 치즈, 해외 과자 등 이색적인 식료품들을 판매하고 있어서 자유롭게 온앤오프 카페 공간에서 구매 하신 음식들을 드실 수 있습니다. 도시를 떠나 자연 속에서 하루를 보내는 공간, 바쁜 일상을 내려놓고 커피 한잔과 함께 쉬어가세요. 누가나 편하게 와서 머물다 갈 수 있는 공간이 되도록 온앤오프가 기다리고 있겠습니다.</p>
-    <ul class="box1">
-        <li>
-            <dl>
-                <dt>CAFE</dt>
-                <dd>커피 한 잔의 향은 특별한 순간을 더욱 오래도록 기억에 남게 하고 저희는 추억이 피어나는 공간을 만들고자 했습니다. <br>사람과 사람이 모여 따뜻함을 나누는 공간이 되고자 합니다.</dd>
-            </dl>
-        </li>
-        <li>
-            <dl>
-                <dt>GROCERY</dt>
-                <dd>바베큐에 필요한 간단한 식품 및 음료 외 주류들을 구매 할 수 있으며 쇼핑과 함께 이 공간은 작은 이벤트 등을 즐길 수 있는 <br class="mo_br">다목적 공간으로도 활용하고자 합니다.</dd>
-            </dl>
-        </li>
-        <li>
-            <dl>
-                <dt>BARBEQUE</dt>
-                <dd>불꽃 앞에서의 바베큐는 사람들과의 대화를 이어주는 매개체입니다. 바베큐와 카페의 독특한 조합으로 다른곳에서는 경험 해보지 못하는 특별한 경험으로 소중한 순간을 공유 할 수 있도록 하고자 합니다.</dd>
-            </dl>
-        </li>
-    </ul>
+<div class="sCafe_case1">
+    <div class="inner">
+        <ul class="tab1">
+            <li>Coffee</li>
+            <li>Lifestyle</li>
+            <li class="on">Grocery</li>
+            <li>Barbeque</li>
+        </ul>
+        <p class="t1">카페 온앤오프에서는 다양한 음료와 간단한 스낵 메뉴를 판매하고 있습니다. 온앤오프 카페 공간은 1층 실내석부터, 야외 테라스석과 4층 루프탑까지 다양하게 준비되어 있어서 자유롭게 구매 하신 음식들을 원하시는 공간에서 드실 수 있습니다. 도시를 떠나 자연 속에서 하루를 보내는 공간, 바쁜 일상을 내려놓고 커피 한잔과 함께 쉬어가세요. <br class="mo_br">누구나 편하게 와서 머물다 갈 수 있는 공간이 되도록 온앤오프가 기다리고 있겠습니다.</p>
+        <div class="sCafe_slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/sCafe_img4_1.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_2.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_3.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_4.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_5.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_6.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_7.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_8.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_9.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_10.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_11.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_12.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_13.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_14.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_15.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_16.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_17.png"></div>
+                <div class="swiper-slide"><img src="images/sCafe_img4_18.png"></div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
@@ -107,6 +111,32 @@
     </ul>
 </div>
 
+<script>
+    var mySwiper = new Swiper(".sCafe_slide", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        loop: true,
+        loopAdditionalSlides: 1,
+        observer: true,
+        observeParents: true,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            1024: {
+                slidesPerView: 2,
+                spaceBetween: 15,
+            },
+            767: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+        },
+    });
+
+</script>
+
 <footer id="footer">
     <div class="inner">
         <div class="top_footer">
@@ -127,7 +157,7 @@
                 <li>
                     <dl>
                         <dt>SOCIAL</dt>
-                        <dd><a href="https://www.instagram.com/onnoff_stay_?igsh=c214NDhxOHpiaDFp&utm_source=qr" target="_blank">Instagram</a></dd>
+                        <dd><a href="https://www.instagram.com/onnoff_stay_" target="_blank">Instagram</a></dd>
                     </dl>
                 </li>
                 <li>
@@ -146,7 +176,7 @@
             <li>온앤오프 ON N OFF</li><br>
             <li>인천광역시 중구 영종순환로 577</li>
             <li>대표: 김수하</li><br>
-            <li>통신판매업 신고번호: 0000-0000-0000</li>
+            <li>통신판매업 신고번호: 2025-인천 중구-0381</li>
             <li>대표번호: 010-4265-7603</li>
         </ul>
         <p class="copy"><span>copyright</span>ON N OFF All right reserved. since 2025.</p>
